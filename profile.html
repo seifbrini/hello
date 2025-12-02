@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8"  >
+<meta name="viewport" content="width:device-width,initial-scale=1">
+<link rel="icon" type="image/x-icon" href="favicon.ico"  >
+<title> TimeLoop</title>
+<style>
+
+body{ 
+margin:0;
+padding:0;
+background-color:#78543b;
+}
+header{
+padding:15px;
+margin:0;
+background-color:#260d08;
+color:white;
+text-align:center;
+}
+ul{
+width:100%;
+margin:0;
+padding:0;
+
+list-style-type:none;
+display:flex;
+flex-direction:row;
+justify-content:flex-start;
+align-items:center;
+
+background-color:white;
+}
+li{
+
+text-align:center;
+
+
+}
+
+#submit{
+padding:5px;
+margin:7px
+}
+
+li a{
+display:block;
+
+margin:0;
+padding:25px;
+text-decoration:none;
+color:black;}
+
+li a:hover{
+color:white;
+background-color:black;
+
+}
+
+#welcome{
+padding:20px;
+background-color:black;
+color:white;
+text-align:center
+
+}
+
+footer{
+display:block;
+padding:30px;
+background-color:#260d08;
+color:white;
+
+text-align:center;
+
+   }
+#login{
+border:none;
+color:#dbc68a;
+background-color:#1c1c1c;
+font-size:17px
+
+
+}
+#formflexb0{
+
+	display:flex;
+justify-content:center}
+
+
+form{
+padding:40px;margin:40px;
+ background-color:#1c1c1c; border-radius:18px;  color:white; text-align:center; }
+
+label{
+
+color:#ccc;}
+input{
+ padding: 10px;
+  border-radius: 6px;}
+</style>
+
+
+</head>
+<body>
+<header>
+
+<h1>Time Loop</h1>
+
+<h4>Luxury watches designed for those who value every moment</h4>
+
+</header>
+<nav>
+<ul>
+<li><a href="home.html"><b>home</b></a></li>
+<li><a href="explore.html"><b>explore</b></a></li>
+<li><a href="aboutus.html"><b>about us</b></a></li>
+<li><a href="profile.html"><b>profile</b></a></li>
+</ul>
+</nav>
+<div id="welcome">
+
+<h1>Welcome to TimeLoop<br> Please sign in or register to access your personalized watch collection and exclusive features</h1>
+
+</div>
+<div id="formflexb0">
+  
+<div id="formflexb">
+
+
+  
+  <form action="profile.html" id="profileForm">
+<h2>Register</h2>
+<h4>already have an account? <button id="login" 
+<button type="button" onclick="document.getElementById('formflexb2').style.display='inline-block';document.getElementById('formflexb').style.display='none'"><b>sign-in</b></button></h4>
+<button><img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" width="24">
+</button>
+<button><img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" width="24px">
+</button>
+<button><img src="https://www.google.com/favicon.ico" width="24" height="24" alt="Google">
+
+</button>
+<hr>or<hr>
+
+    <label for="firstname" >Fisrt Name</label><br>
+    <input type="text" id="firstname" name="firstname" placeholder="Name" ><br>
+ <label for="Lastname" >Last Name</label><br>
+    <input  placeholder="Last Name" type="text" id="Lastname" name="Lastname" ><br>
+
+    <label for="email">Email</label><br>
+    <input type="email" id="email" name="email" placeholder="Name@gmail.com"><br>
+
+    <label for="username">Username</label><br>
+    <input type="text" id="username" name="username" placeholder="TimeLoopUser"><br>
+
+ <label for="dateofbirth">date of birth</label><br>
+<input id="dateofbirth" name="dateofbirth" type="date"></input><br>
+<label for="password">password</label><br>
+<input id="password" type="password"></input><br>
+
+
+    <button id="submit" type="submit">Save Profile</button>
+  </form>
+
+
+</div>
+
+
+
+<div id="formflexb2" style="display:none">
+
+
+  
+  <form action="profile.html" id="profileForm">
+<h2>log in</h2>
+<h4>don't have an account? <button id="login"><b>register</b></button></h4>
+<button><img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" width="24">
+</button>
+<button><img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" width="24px">
+</button>
+<button><img src="https://www.google.com/favicon.ico" width="24" height="24" alt="Google">
+
+</button>
+<hr>or<hr>
+
+    <label for="email">Email</label><br>
+    <input type="email" id="email" name="email" placeholder="Name@gmail.com"><br>
+
+    <label for="username">Username</label><br>
+    <input type="text" id="username" name="username" placeholder="TimeLoopUser"><br>
+
+
+<label for="password">password</label><br>
+<input id="password" type="password"></input><br>
+
+
+    <button id="submit" type="submit">Save Profile</button>
+  </form>
+
+
+</div>
+
+
+</div>
+
+
+<footer>
+<h2>TIME LOOP — Crafting Timeless Elegance</h2><br>
+
+<p>© 2025 Time Loop. All Rights Reserved.</p><br>
+
+<p>Privacy Policy | Terms of Service | Contact</p><br>
+</footer>
+</body>
+</html>
